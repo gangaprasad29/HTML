@@ -1,0 +1,54 @@
+<form action="https://script.google.com/macros/s/AKfycbzI6klyYLxDD2wsr6Yw_SzeTZ7IzpZbvZXvQueEFMt5GpAfj8Jkc1CrGkdP5ja3efVg/exec" method="POST">
+    <h1 style="background-color: aqua; display: inline;">Sign Up Form</h1>
+    <fieldset>
+        <legend>Personal information</legend>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" placeholder="enter your name here...">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="enter your email here....">
+        <br>
+        <label for="phone">Phone no:</label>
+        <input type="tel" name="phone" id="phone" placeholder="enter your no.....">
+        <br>
+        <label for="dateofbirth">Date of Birth:</label>
+        <input type="date" name="dateofbirth" id="dateofbirth">
+        <br>
+        <span>Gender:</span>
+        <label for="gender_male">Male</label>
+        <input type="radio" name="gender" id="gender_male" value="Male">
+        <label for="gender_female">Female</label>
+        <input type="radio" name="gender" id="gender_female" value="Female">
+        <br>
+        <label for="country">Country:</label>
+        <select name="country" id="country">
+            <option value="india">India</option>
+            <option value="china">China</option>
+            <option value="pak">Pakistan</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend>Address:</legend>
+        <label for="state">State:</label>
+        <input type="text" name="state" id="state">
+        <br>
+        <label for="city">City:</label>
+        <input type="text" name="city" id="city">
+        <br>
+        <label for="street">Street:</label>
+        <input type="text" name="street" id="street">
+        <br>
+        <label for="zipcode">Zip code:</label>
+        <input type="text" name="zipcode" id="zipcode">
+    </fieldset>
+    <fieldset>
+        <legend>Other Information</legend>
+        <label for="comments">Comments:</label>
+        <br>
+        <textarea name="comments" id="comments" rows="5" cols="30"></textarea>
+        <br>
+        <label for="agree">I agree to the terms of service:</label>
+        <input type="checkbox" name="agree" id="agree" value="Yes">
+    </fieldset>
+    <button type="submit">Submit</button>
+</form>
